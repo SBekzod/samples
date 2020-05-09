@@ -1,5 +1,9 @@
-Hello Everybody
-Let's begin coding in Node.js
+Ey yaratgan tangrim,
+hozir boshlayotgan dasturchilik ishimni eplayshga uzing kumak ber.
+Yaratgan tangrim uzing kuch qudrat, hamda sabr bergin.
+Bu kelayotgan uch oylik muddatda uzimni toliq oqlab ishga rasman qabul qilinin,
+ug'limni Koreayaga choqirishimga uzing yordam ber.
+Meni uni juda sog'inganman.
 
-So we will start here
-Allah help me please
+InshaAlloh,
+Yaratganingga benihoya shukr!
