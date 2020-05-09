@@ -3,8 +3,8 @@ var fs = require('fs');
 var event = require('events');
 const myEmitter = new event.EventEmitter();
 
-fs.readFile('text.txt', (err, data) => {                           // callback function readFie
-    myEmitter.emit('readFile');
+fs.readFile('text.txt', (err, data) => {                          
+    myEmitter.emit('readFile', 'Testing');                          // trigger
     if (err) {
         console.log('There is an Error', err);
     }
@@ -16,8 +16,8 @@ fs.readFile('text.txt', (err, data) => {                           // callback f
     }
 });
 
-myEmitter.on('readFile', () => {
-    console.log('Event occured!');
+myEmitter.on('readFile', (data) => {                                // bind and handle
+    console.log('Event occured!', data);
 })
 console.log('We are here!');
 
