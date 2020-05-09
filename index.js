@@ -1,5 +1,5 @@
-console.log("Hello Everybody");
-console.log("Let's begin coding in Node.js");
+const fs = require('fs');
+const data = fs.readFileSync('text.txt');
 
-console.log("So we will start here");
-console.log("Allah help me please");
+console.log(data.toString());
+
