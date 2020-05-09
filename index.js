@@ -13,6 +13,7 @@ fs.readFile('text.txt', (err, data) => {                           // callback f
 });
 
 console.log('We are here!');
+console.log(__filename);
 
 
 
