@@ -1,0 +1,13 @@
+new Promise((resolve, reject) => {
+    resolve("HI");
+})
+    .then(data => {
+        console.log(data);
+        return "Jack";
+    })
+    .then(data => {
+        console.log(data);
+    })
+    .catch(data => {
+        console.log(data);
+    });
